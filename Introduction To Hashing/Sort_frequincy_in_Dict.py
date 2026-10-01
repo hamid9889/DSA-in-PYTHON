@@ -4,7 +4,7 @@ freq_map = {}
 for i in range(0 , len(num)):
     if num[i] in freq_map:
         freq_map[num[i]] += 1
-        
+         
     else:
         freq_map[num[i]] = 1
 
