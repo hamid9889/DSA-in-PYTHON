@@ -14,3 +14,8 @@ def func():
 
 print("hamid")    
 #time complexity of this is O(n+1)==o(n) and space complexity is O(n+1)==0(n) where n is the number of recursive calls
+
+
+
+
+
