@@ -16,3 +16,25 @@ def selection_sort(nums):
 
 a = selection_sort(nums)
 print(a)
+
+
+# time complexity is 0(N(n+1/2)) ~~ o(n`2`)  space complexity 0(1)
+
+a = [1,3,4,5,6,7,8,9]
+
+def sort(a):
+    n = len(a)
+    for i in range(0 , n):
+        max_ind = i
+        
+        for j in  range(i+1 , n):
+            if a[j]>a[max_ind]:
+              max_ind = j
+            
+            a[i],a[max_ind] =a[max_ind], a[i]
+        
+    return a
+num = sort(a)    
+print(num)
+
+# time complexity is 0(N(n+1/2)) ~~ o(n`2`)  space complexity 0(1)
