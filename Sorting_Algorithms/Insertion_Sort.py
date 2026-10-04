@@ -8,12 +8,8 @@ def func(num):
             nums[j+1] = nums[j]
             
         nums[j+1] = key
-    
-        return nums
-
-
-num = func(nums)    
-print(num) 
+    # here all solution 
+ 
   
 #time complexity o(N^2)
 # space complexity o(1)        
