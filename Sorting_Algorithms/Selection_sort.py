@@ -34,7 +34,5 @@ def sort(a):
             a[i],a[max_ind] =a[max_ind], a[i]
         
     return a
-num = sort(a)    
-print(num)
 
 # time complexity is 0(N(n+1/2)) ~~ o(n`2`)  space complexity 0(1)

@@ -10,8 +10,7 @@ def bubble(nums):
                         nums[j], nums[j+1] = nums[j+1], nums[j]
                   
     return nums
-num = bubble(nums)    
-print(num)
+
         
 # time and Space   o(n (n +1 )/2) ~~ o (N 2),,  space o(1)  for avg or wrost case
 
