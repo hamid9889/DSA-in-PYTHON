@@ -9,6 +9,8 @@
 2 = put pivot at its correct position / index
 
 """
+
+
 nums = [3,1,2,6,7,8,4]
 
 class Solution:
@@ -44,7 +46,7 @@ class Solution:
     """
     """
     for wrost case -- TC = o(N x N -- N^2)
-   SC  o(N)
+   space cimplexity of this sorting o(N )
     """
     
     
