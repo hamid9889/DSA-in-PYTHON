@@ -1,8 +1,8 @@
 # merge dort work on divide and merge
 
 #merge two sorted array 
-# left = [1,2,3,4]
-# right = [1,1,3,4,5,6,7]
+left = [1,2,3,4]
+right = [1,1,3,4,5,6,7]
 
 def merg_arrray(left, right):
     result = []
