@@ -13,3 +13,4 @@ reverse(n-k, n-1)
 reverse(0,n-k-1)        
 reverse(0, n-1)
 
+# time and space complexity
