@@ -15,6 +15,6 @@ return lb
 
 """
 the time complexity is n (log n )
-space complexity is o (1)
+space complexity is o (1)  or O(N)
 
 """           
