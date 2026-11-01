@@ -38,5 +38,6 @@ return ub
 """
 the time complexity is O(log_base2 N)
 space complexity is o(1)
+opttimal o;s
 
 """
